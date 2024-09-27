@@ -1,4 +1,4 @@
-# ESP32-CAM Video Streaming Project
+# ESP32-CAM Video Streaming Using Internal WIFI
 
 Welcome to the ESP32-CAM Video Streaming Project! This repository contains everything you need to set up your **ESP32-CAM** module to stream video over **Wi-Fi**. With just a few components, you can turn your ESP32-CAM into a powerful video streaming device.
 
@@ -17,14 +17,14 @@ To connect your `ESP32-CAM` to the `USB to TTL` converter or `FTDI` module, foll
 | ESP32-CAM       | USB to TTL or FTDI Programmer |
 |------------------|------------------------------|
 | GND              | GND                          |
-| 5V               | VCC (5V)                    |
+| 3.3V             | VCC                          |
 | U0R              | TX                           |
 | U0T              | RX                           |
-| GPIO 0          | GND                          |
+
 
 ### Important Notes
 
-- **GPIO 0** must be connected to **GND** to upload a sketch.
+- **GPIO 0** must be connected to **GND** in `ESP32-CAM` to upload a sketch.
 - After connecting **GPIO 0 to GND**, press the ESP32-CAM on-board **RESET** button to put your board in flashing mode.
 
 ## Getting Started
