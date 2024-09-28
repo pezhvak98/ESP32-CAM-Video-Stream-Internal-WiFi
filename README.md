@@ -32,8 +32,9 @@ To connect your `ESP32-CAM` to the `USB to TTL` converter or `FTDI` module, foll
 1. **Clone this repository:**
 
    ```bash
-   git clone https://github.com/yourusername/esp32-cam-video-streaming.git
-   cd esp32-cam-video-streaming
+   git clone https://github.com/pezhvak98/ESP32-CAM-Video-Stream-Internal-WiFi.git
+After cloning, you can use the code as you like.
+
 
 
 2.  **Install the required libraries:**
